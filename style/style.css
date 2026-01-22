@@ -211,3 +211,187 @@ body{
 .about-list p{
     color: white;
 }
+
+
+/* techwave section */
+
+.techwave-container{
+    background-color: #230E3D;
+     padding: 100px;
+    
+}
+.techwave-card{
+    gap: 20px;
+    align-items: start;
+}
+
+.techwave-card .card-1{
+    background-color: #35116577;
+    padding: 90px 20px;
+    border-radius: 10px;
+}
+.techwave-card .card-2{
+    background-color: #35116577;
+    padding: 45px 41px;
+    border-radius: 10px;
+}
+.techwave-card .card-3{
+    background-color: #35116577;
+    padding: 45px 41px;
+    border-radius: 10px;
+}
+.techwave-card .card-4{
+    background-color: #35116577;
+    padding: 35px 41px;
+    border-radius: 10px;
+}
+.techwave-card .card-5{
+    background-color: #35116577;
+    padding: 15px 44px;
+    border-radius: 10px;
+}
+
+
+
+.techwave-container h2{
+   
+    text-align: center;
+    padding: 50px;
+     
+}
+
+.techwave-container i{
+    font-size: 50px;
+}
+
+.techwave-container .techwave-card h3{
+    color: white;
+    font-size: 24;
+    font-weight: 700;
+}
+
+.techwave-container .techwave-card p{
+    color: white;
+    font-size: 14px;
+    font-weight: 200;
+    
+}
+
+.techwave-card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: min-content;
+
+    
+}
+
+.techwave-card> div:nth-child(1){
+    grid-row: span 2;
+}
+
+
+.techwave-card> div:nth-child(2),
+.techwave-card> div:nth-child(3){
+    grid-column: span 3;
+}
+
+
+
+
+.techwave-card> div:nth-child(4){
+    grid-column: span 3;
+}
+
+
+.techwave-card > div:nth-child(5){
+    grid-column: span 1;
+}
+
+
+/* Podcast section */
+
+.episodes-container{
+    background-color: #1A0B2E;
+    padding: 100px;
+
+}
+
+.episode{
+    gap: 20px;
+}
+
+.episodes-container h2{
+    padding: 40px;
+    text-align: center;
+
+}
+
+.episodes-container h3{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.episodes-container p{
+    color: white;
+    font-size: 13px;
+    font-weight: 200;
+    
+}
+
+.episodes-container .episode{
+    display: flex;
+}
+    
+.episode-card{
+    background-color: #250D44;
+    padding-bottom: 20px;
+    max-width: 330px;
+    border-radius: 24px;
+
+}
+
+.episode-description{
+    padding: 20px;
+    
+
+}
+
+
+
+
+.time{
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+}
+.time p{
+    color: #00FF88;
+    font-weight: 300;
+}
+
+/* host section */
+
+.host-container{
+    display: flex;
+    gap: 10px;
+    background-color: #533c7244;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.host-container img{
+    width: 100px;
+    height: 100px;
+}
+
+.social img{
+    width: 10px;
+    height: auto;
+    }
+    
+.social{
+    display: flex;
+    gap: 10px;
+}
