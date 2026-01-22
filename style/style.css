@@ -1,0 +1,106 @@
+@import "tailwindcss";
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+
+}
+
+
+
+/* header */
+nav{
+    background-color: #1A0B2E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    border-bottom: 1px solid rgb(110, 108, 108);
+    padding: 10px 120px 5px;
+
+}
+
+h2{
+    font-size: 30px;
+    color: white;
+    font-weight: 900;
+}
+
+nav>ul{
+    color: white;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: 13px;
+
+}
+
+.btn{
+    color: white;
+    background-image: linear-gradient(to left,#9100F8, #FB09B4, #F7E93F);
+    padding: 5px 10px;
+    border-radius: 17px;
+}
+
+/* banner*/
+body{
+    background-color: black;
+}
+
+.mic-parent{
+    position: relative;
+}
+.mic-circle{
+    width: 270px;
+    height: auto;
+    position: absolute;
+     top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.mic-img{
+    width: 100px;
+    height: auto;
+    position: absolute;
+
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.mic-btn{
+    background-color: #00FF88; 
+    font-size: 13px;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 12px;
+    display: inline-block;
+    position: absolute;
+
+    top:70px;
+    left:680px;
+
+    animation: pulse 1.5s infinite;
+  
+
+}
+
+@keyframes pulse{
+    0%{
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(0, 255, 136, 0.7);
+    }
+
+    50%{
+        transform: scale(1.1);
+        box-shadow: 0 0 15px rgba(0, 255, 136, 1);
+    }
+
+    100%{
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(0, 255, 136, 0.7);
+    }
+}
+
+
