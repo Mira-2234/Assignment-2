@@ -164,3 +164,50 @@ body{
     cursor: pointer;
     
 }
+
+/* main section */
+
+.about-container{
+    background-color: #1A0B2E;
+    text-align: center;
+    padding: 100px;
+    
+    /* justify-content: center;
+    align-items: center; */
+    
+}
+.about-container h2{
+    font-size: 50px;
+    font-weight: 600;
+    
+}
+
+.about-container p{
+    color: white;
+    font-size: 13px;
+    font-weight: 300;
+    padding-bottom: 50px;
+    
+    
+}
+
+.about-list{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    border-top: 1px solid rgb(109, 108, 108);
+    
+}
+
+.about-list h2{
+    color: #00FF88;
+    font-size: 48px;
+    font-weight: 800;
+
+}
+
+.about-list p{
+    color: white;
+}
