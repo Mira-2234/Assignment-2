@@ -86,8 +86,8 @@ body{
     display: inline-block;
     position: absolute;
 
-    top:100px;
-    left:820px;
+    top:70px;
+    left:680px;
 
     animation: pulse 1.5s infinite;
   
