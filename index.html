@@ -15,6 +15,8 @@
 
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="style/style.css">
+
+    <link rel="stylesheet" href="./style/responsive.css">
 </head>
 <body>
     <header>
@@ -27,6 +29,10 @@
                     <li><a href="">Host</a></li>
                 </ul>
                 <button class="btn">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+
+                <div class="hamburger">
+                    <img src="assets/hamburger-menu.png" alt="">
+                </div>
         </nav>
 
        
@@ -182,16 +188,23 @@
 
     <footer class="footer">
         <img src="assets/footer-bg.png" alt="">
-         <div class="footer-cotainer">
+         <div class="footer-container">
             <h2>Tech<span class=" bg-linear-to-bl from-[#9100F8] via-[#FB09B4] to-[#F7E93F]  bg-clip-text text-transparent">Wave</span></h2>
          <div class="footer-social">
-         <img src="assets/spotify.png" alt=""><p>Spotify</p>
-         <img src="assets/apple-podcast.png" alt=""><p>Apple Podcasts</p>
-         <img src="assets/youtube-podcast.png" alt=""><p>YouTube</p>
-         <img src="assets/twitter.png" alt=""><p>Twitter</p>
+       <div class="flex">
+             <img src="assets/spotify.png" alt=""><p>Spotify</p>
+       </div>
+         <div class="flex">
+            <img src="assets/apple-podcast.png" alt=""><p>Apple Podcasts</p>
          </div>
+         <div class="flex"><img src="assets/youtube-podcast.png" alt=""><p>YouTube</p></div>
+         <div class="flex">
+            <img src="assets/twitter.png" alt=""><p>Twitter</p>
+         </div>
+         </div>
+         <p class="copyright">© 2026 TechWave Podcast. All rights reserved.</p>
          
-         <p>© 2026 TechWave Podcast. All rights reserved.</p>
+         
          </div>
          
         

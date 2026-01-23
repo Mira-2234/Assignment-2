@@ -1,0 +1,113 @@
+@media screen and (max-width: 576px) {
+
+
+  
+    nav>.hamburger{
+        display: block;
+    }
+
+    nav>ul{
+        display: none;
+    }
+    nav>.btn{
+        display: none;
+    }
+
+    .mic-circle{
+        display: block;
+        width: 150px;
+        height: auto;
+        top: 35%;
+        left: 50%;
+    }
+    .mic-btn{
+        top: 8%;
+        left: 54%;
+    }
+
+    .mic-img{
+        width: 50px;
+        height: auto;
+    }
+
+    .banner-description{
+         top: 60%;
+        left: 12%;
+        
+    }
+
+
+    .about-container{
+        padding-top: 350px;
+    }
+
+    .about-container h2{
+        font-size: 30px;
+
+    }
+
+    .about-list{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding: 30px;
+        gap: 40px;
+    }
+
+    .about-list h2{
+        font-size: 58px;
+    }
+    .about-list p{
+        font-size: 16px;
+    }
+
+    .techwave-container{
+        padding: 50px;
+    }
+
+    .techwave-card{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .techwave-card .card-5{
+        padding: 50px 40px;
+    }
+
+    .techwave-card .card-1{
+        padding: 50px 40px;
+    }
+
+  .episodes-container .episode{
+        grid-template-columns:repeat(1,1fr);
+    }
+
+
+.host-container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    text-align: center;
+}
+
+.host-container img{
+
+  margin: 0 auto; 
+ 
+}
+
+.footer h2{
+    font-size: 38px;
+    
+
+}
+
+.footer-social{
+    flex-wrap: wrap;
+}
+
+.footer-social img{
+    width: 20px;
+    
+}
+
+}
+
